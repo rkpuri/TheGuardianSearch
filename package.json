@@ -1,0 +1,37 @@
+{
+  "name": "the-guardian",
+  "version": "1.0.0",
+  "description": "Search engine",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node server.js"
+  },
+  "devDependencies": {
+    "babel": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "style-loader": "latest",
+    "css-loader": "latest",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "latest",
+    "babel-plugin-transform-runtime":"latest",
+    "babel-plugin-transform-class-properties":"latest",
+    "@material-ui/core":"latest",
+    "@material-ui/icons":"latest",
+    "axios":"latest"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "redux": "^4.0.0",
+    "react-redux": "^5.0.7",
+    "redux-logger": "^3.0.6"
+    
+  },
+  "license": "ISC"
+}
